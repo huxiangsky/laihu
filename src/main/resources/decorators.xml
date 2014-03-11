@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/">
+    <!-- Any urls that are excluded will never be decorated by Sitemesh -->
+    <excludes>
+        <pattern>/css/*</pattern>
+        <pattern>/img/*</pattern>
+        <pattern>/js/*</pattern>
+        <pattern>/index.jsp</pattern>
+        <pattern>/*.html</pattern>
+    </excludes>
+    
+    <decorator name="views_frame">
+    	<pattern>/views/*</pattern>
+    </decorator>
+    
+    <decorator name="console_frame" page="/console/main.jsp">
+    	<pattern>/console/*</pattern>
+    </decorator>
+    
+    <decorator name="header" page="/views/header.jsp"/>
+    
+    <decorator name="menuer" page="/console/menu.jsp"/>
+    
+    <decorator name="footer" page="/views/footer.jsp"/>
+    
+</decorators>

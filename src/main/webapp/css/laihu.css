@@ -1,0 +1,272 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  font-family: 'Microsoft YaHei UI','Microsoft YaHei',SimSun,'Segoe UI',Tahoma,Helvetica,Sans-Serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: #333;
+  background-color: #ffffff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #A72A00;
+  text-decoration: none;
+}
+
+a:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+a:hover,
+a:active {
+  outline: 0;
+}
+
+img {
+  width: auto\9;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+tr,
+  img {
+    page-break-inside: avoid;
+}
+
+img {
+    max-width: 100% !important;
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  font-size: 100%;
+  vertical-align: middle;
+}
+
+button,
+input {
+  *overflow: visible;
+  line-height: normal;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+
+label,
+select,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+input[type="radio"],
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.container {
+	width: 100%;
+	height:100%;
+	left:0;
+}
+
+.navigation {
+	background:#34495E;
+	min-height:700px;
+	height:auto!important;
+	height:700px; 
+	width:180px;
+	top: 0;
+	bottom: 0;
+	float:left;
+}
+
+.menu {
+	float:left;
+	letter-spacing: normal;
+	margin-top:20px;
+}
+
+.logo {
+	height:50px;
+	width:100%;
+	color:#FFFFFF;
+	margin:0;
+	padding:0.3em 0;
+	background:#ED6F46;
+}
+.logo-title {
+	float:left;
+	font-size:1.6em;
+	padding-top:0.2em;
+}
+
+.main {
+	/*background:#F2F2F2;*/
+	margin-left:180px;
+	padding:0;
+	height:auto;
+}
+
+.header {
+	height:40px;
+	top:0;
+	padding:9px;
+	background:#ED6F46;
+}
+.text-center { text-align:center}
+.notifs-icon-wrapper { position: relative;}
+
+.notifs { float: left;position: relative;cursor: pointer;margin:0; padding:5px;text-algin:center }
+
+.notifs a i { 
+	line-height: 32px !important;
+	margin-right: 10px;
+	font-size: 32px;
+	width: 32px;
+	float: left
+}
+.header ul.employee-links li a i{
+	line-height: 28px !important;
+	margin-right: 10px;
+	font-size: 28px;
+	width: 28px;
+	float: left
+}
+
+.orders-notif {}
+
+.customers-notif {}
+
+.employee-box {
+	float: right;
+	display: block;
+}
+
+.employee-infos {
+	margin: 5px 15px 0 10px;
+}
+.header ul.employee-links  {list-style: none;margin:0;}
+.header ul.employee-links li {display: inline;}
+.content {
+	background: #F2F2F2;
+	min-height:600px;
+	height:auto!important;
+	height:600px;
+	padding:0.8em;
+	overflow-y: auto;
+}
+.navigation-bar {
+	background: #FFF;
+	opacity: 0.8;
+	width: 100%;
+	margin-bottom: 10px;
+	height:42px;
+}
+.navigation-bar ul {
+	width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    list-style: none;
+}
+
+.navigation-bar ul li {
+    display: inline;
+    font-size: 14px;
+    margin: 0;
+    padding: 10px 5px;
+	line-height: 22px;
+    float: left;
+    position: relative
+}
+.navigation-bar ul li i {
+	color: #CC3300;
+	line-height: 22px !important;
+	font-size: 22px;
+	width: 22px;
+}
+.content .edit ,.content .list{
+	background: #FAFAFA;
+  	background: transparent\9;
+  	zoom: 1;
+  	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99ffffff, endColorstr=#99ffffff);
+  	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99ffffff, endColorstr=#99ffffff)";
+	width: 100%;
+}
+.content .edit .title{
+	background: #4e6d8d;
+}
+.content .list .title {
+	background: #B65231;
+}
+.content .edit .title,.content .list .title {
+	height:35px;
+	color: #FFF;
+	font-weight:bold;
+}
+.content .edit .title span,.content .list .title span {
+	margin:0.5em;
+	height:100%;
+	line-height:35px;
+	font-size:16px;
+}
+.content .edit .form-area ,.content .list .list-area {
+	min-height:500px;
+	height:auto!important;
+	height:500px;
+	overflow-y: auto;
+	
+}
+.content .edit .form-area {
+	padding-top:1.2em;
+}
+.content .list .list-area {
+}
+.content .price {
+	color:#800000;
+	font-weight:bold;
+}
+.content .price-commission {
+	color:#003300;
+	font-weight:bold;
+}
+.result-filter {height:40px;padding:15px 8px 0px 8px;}
+.footer {
+	font-size: 90%;
+	height:10px;
+	border-top: 1px solid #eee;
+	padding: 0.5em 0.8em;
+	background: rgb(250, 250, 250);
+	text-align:right;
+}
